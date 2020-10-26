@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import Aboutus from './Aboutus';
 import Cards from './Cards';
@@ -17,6 +18,7 @@ const Home = () => {
             <Aboutus />
             <Trainings />
             <WhyChooseUs />
+            <Footer />
         </section>
     );
 };
