@@ -18,11 +18,11 @@
     padding: 10px 40px;
     text-transform: uppercase;
 }
-.info-cards .holder{
+.holder{
     height: 380px;
     transition: 0.3s;
 }
-.info-cards .holder:hover{
+.holder:hover{
     transform: scale(1.05);
 }
 .info-cards main{
@@ -57,12 +57,12 @@
     font-size: 40px;
     font-weight: 700;
 }
-.trainings .title{
+.title{
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
 }
-.trainings .title span{
+.title span{
     color: #FCD842;
 }
 .trainings .card-img{
@@ -84,4 +84,13 @@
     color: #FCD842;
     text-decoration: underline;
     cursor: pointer;
+}
+.why-choose-us .holder main{
+    box-shadow: 3px 3px 15px lightgrey;
+    border-radius: 2px;
+    height: 340px;
+    transition: 0.3s;
+}
+.why-choose-us .holder main:hover{
+    border: 2px solid #FCD842;
 }

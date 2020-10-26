@@ -4,6 +4,7 @@ import Aboutus from './Aboutus';
 import Cards from './Cards';
 import Header from './Header';
 import Trainings from './Trainings';
+import WhyChooseUs from './WhyChooseUs';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Cards />
             <Aboutus />
             <Trainings />
+            <WhyChooseUs />
         </section>
     );
 };
