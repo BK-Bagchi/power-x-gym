@@ -1,0 +1,12 @@
+.navbar{
+    background: transparent !important;
+    height: 80px;
+}
+.navbar li{
+    font-size: 18px;
+    margin:0 22px;
+    transition: 0.3s;
+}
+.navbar li:hover{
+    color: yellow;
+}
