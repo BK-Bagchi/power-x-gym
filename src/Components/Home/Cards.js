@@ -4,7 +4,7 @@ import Icon2 from '../../Resources/Image&Icon/Group 81.png'
 import Icon3 from '../../Resources/Image&Icon/Group 82.png'
 
 const Card = ({ name, image, background }) => {
-    return <div className="col-md-4 holder">
+    return <div className="col-md-4 holder my-2">
         <main className={`d-flex flex-column align-items-center justify-content-center ${background}`}>
             <img src={image} alt="Icon" />
             <h1>{name}</h1>

@@ -7,7 +7,7 @@ const Trainings = () => {
         <section className="trainings my-5 py-5 container">
             <h1 className="title mb-5">Trainings <span>Programs</span></h1>
             <div className="row w-100 m-0">
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                     <main className="position-relative">
                         <img className="card-img" src={Img1} alt="Img" />
                         <div className="training-tag p-3">
@@ -15,7 +15,7 @@ const Trainings = () => {
                         </div>
                     </main>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 my-2">
                     <main className="position-relative">
                         <img className="card-img" src={Img2} alt="Img" />
                         <div className="training-tag p-3">
