@@ -1,6 +1,6 @@
 .head .row{
     color: white;
-    height: 80vh;
+    height: 90vh;
 }
 .head .row h1{
     font-size: 67px;
@@ -16,4 +16,29 @@
     border-radius: 2px;
     outline:none;
     padding: 10px 40px;
+}
+.info-cards .holder{
+    height: 380px;
+    transition: 0.3s;
+}
+.info-cards .holder:hover{
+    transform: scale(1.05);
+}
+.info-cards main{
+    padding-top: 50px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.info-cards .Icon1{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/hipcravo-5UbIqV58CW8-unsplash.jpg');
+}
+.info-cards .Icon2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+}
+.info-cards .Icon3{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
 }
