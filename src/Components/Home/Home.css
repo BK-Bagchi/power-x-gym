@@ -1,0 +1,19 @@
+.head .row{
+    color: white;
+    height: 80vh;
+}
+.head .row h1{
+    font-size: 67px;
+    margin: 20px 0;
+    line-height: 70px;
+}
+.head .join{
+    color: black;
+    background:#FCD842;
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
+    border-radius: 2px;
+    outline:none;
+    padding: 10px 40px;
+}

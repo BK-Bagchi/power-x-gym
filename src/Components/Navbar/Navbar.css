@@ -1,11 +1,14 @@
 .navbar{
     background: transparent !important;
     height: 80px;
+    z-index: 11;
 }
 .navbar li{
     font-size: 18px;
     margin:0 22px;
     transition: 0.3s;
+    color: white;
+    cursor: pointer;
 }
 .navbar li:hover{
     color: yellow;

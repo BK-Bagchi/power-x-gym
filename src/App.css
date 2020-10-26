@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.full-background{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./Resources/Image&Icon/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+  background-position: center top;
+  background-size: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
