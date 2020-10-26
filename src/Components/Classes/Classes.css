@@ -5,3 +5,21 @@
     font-size: 80px;
     color: white;
 }
+.classes .schedule .title{
+    font-size:50px;
+}
+.schedule .day{
+    margin: 7px;
+    padding: 15px 20px;
+    min-width: 200px;
+    box-shadow: 3px 3px 15px lightgrey;
+    transition: 0.3s;
+}
+.schedule .day:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 15px grey;
+}
+.schedule .day p{
+    color: #FCD842;
+    margin:0;
+}

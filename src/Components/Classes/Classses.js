@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header'
 import Navbar from '../Navbar/Navbar'
 import './Classes.css'
+import Schedule from './Schedule'
+import Footer from '../Footer/Footer'
 
 const Classses = () => {
     return (
@@ -10,6 +12,8 @@ const Classses = () => {
                 <Navbar />
                 <Header />
             </div>
+            <Schedule />
+            <Footer />
         </section>
     );
 };
