@@ -13,6 +13,9 @@
 .navbar li:hover{
     color: #FCD842;
 }
+.navbar a{
+    text-decoration: none;
+}
 .navbar .title span{
     color: #FCD842;
 }

@@ -1,11 +1,12 @@
-import React from 'react';
-import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
-import Aboutus from './Aboutus';
-import Cards from './Cards';
-import Header from './Header';
-import Trainings from './Trainings';
-import WhyChooseUs from './WhyChooseUs';
+import React from 'react'
+import './Home.css'
+import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
+import Aboutus from './Aboutus'
+import Cards from './Cards'
+import Header from './Header'
+import Trainings from './Trainings'
+import WhyChooseUs from './WhyChooseUs'
 
 const Home = () => {
     return (
