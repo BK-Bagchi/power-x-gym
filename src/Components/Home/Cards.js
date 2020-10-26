@@ -16,7 +16,7 @@ const Card = ({ name, image, background }) => {
 const Cards = () => {
     return (
         <section className="info-cards container my-5">
-            <div className="row m-0 w-100">
+            <div className="row m-0 w-100 py-5">
                 <Card name={'Progression'} image={Icon1} background={'Icon1'} />
                 <Card name={'Workout'} image={Icon2} background={'Icon2'} />
                 <Card name={'Nutrition'} image={Icon3} background={'Icon3'} />

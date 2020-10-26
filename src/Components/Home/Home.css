@@ -7,7 +7,7 @@
     margin: 20px 0;
     line-height: 70px;
 }
-.head .join{
+.join{
     color: black;
     background:#FCD842;
     font-size: 20px;
@@ -16,6 +16,7 @@
     border-radius: 2px;
     outline:none;
     padding: 10px 40px;
+    text-transform: uppercase;
 }
 .info-cards .holder{
     height: 380px;
@@ -41,4 +42,18 @@
 }
 .info-cards .Icon3{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+}
+.about-us .about-1{
+    color:#F4F4F5;
+    font-size: 60px;
+    font-weight: 700;
+}
+.about-us .about-2{
+    color:#FCD842;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-us .about-3{
+    font-size: 40px;
+    font-weight: 700;
 }

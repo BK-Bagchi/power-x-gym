@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import Aboutus from './Aboutus';
 import Cards from './Cards';
 import Header from './Header';
 
@@ -11,6 +12,7 @@ const Home = () => {
                 <Header />
             </div>
             <Cards />
+            <Aboutus />
         </section>
     );
 };
