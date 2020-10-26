@@ -14,7 +14,7 @@
     font-weight: 600;
     border:none;
     border-radius: 2px;
-    outline:none;
+    outline:none !important;
     padding: 10px 40px;
     text-transform: uppercase;
 }
@@ -56,4 +56,32 @@
 .about-us .about-3{
     font-size: 40px;
     font-weight: 700;
+}
+.trainings .title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+.trainings .title span{
+    color: #FCD842;
+}
+.trainings .card-img{
+    width: 100%;
+    height: 400px;
+}
+.trainings .training-tag{
+    position: absolute;
+    bottom: 10%;
+    background:#FCD842;
+    width: 60%;
+    font-weight: 700;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.trainings .see-more:hover{
+    color: #FCD842;
+    text-decoration: underline;
+    cursor: pointer;
 }

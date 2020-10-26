@@ -11,5 +11,8 @@
     cursor: pointer;
 }
 .navbar li:hover{
-    color: yellow;
+    color: #FCD842;
+}
+.navbar .title span{
+    color: #FCD842;
 }

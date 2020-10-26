@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Aboutus from './Aboutus';
 import Cards from './Cards';
 import Header from './Header';
+import Trainings from './Trainings';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             </div>
             <Cards />
             <Aboutus />
+            <Trainings />
         </section>
     );
 };
