@@ -1,6 +1,28 @@
 .classes .head{
     height: 55vh;
 }
+.classes .class-option .class main{
+    width: 370px;
+    height: 400px;
+    min-width: 370px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.classes .class-option .class main:hover{
+    transform: scale(1.05);
+}
+.classes .class-option .class .tag{
+    position: absolute;
+    padding: 15px 10px;
+    bottom: 10%;
+    width: 60%;
+    font-weight: 700;
+    background:#FCD842;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
 .classes .advance-gym{
     font-size: 80px;
     color: white;

@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar'
 import './Classes.css'
 import Schedule from './Schedule'
 import Footer from '../Footer/Footer'
+import ClassOption from './ClassOption'
 
 const Classses = () => {
     return (
@@ -12,7 +13,8 @@ const Classses = () => {
                 <Navbar />
                 <Header />
             </div>
-            <Schedule />
+            <ClassOption />
+            {/* <Schedule /> */}
             <Footer />
         </section>
     );
