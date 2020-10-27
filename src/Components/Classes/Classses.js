@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
 import Navbar from '../Navbar/Navbar'
 import './Classes.css'
@@ -7,14 +7,15 @@ import Footer from '../Footer/Footer'
 import ClassOption from './ClassOption'
 
 const Classses = () => {
+    const [className, setClassName] = useState('')
+
     return (
         <section className="classes">
             <div className="top full-background">
                 <Navbar />
-                <Header />
+                <Header title={className} />
             </div>
-            <ClassOption />
-            {/* <Schedule /> */}
+            { !className ? <ClassOption setClassName={setClassName} /> : <Schedule />}
             <Footer />
         </section>
     );

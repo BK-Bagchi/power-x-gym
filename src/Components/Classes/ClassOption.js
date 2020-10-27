@@ -6,27 +6,27 @@ import Gym4 from '../../Resources/Image&Icon/alora-griffiths-TuzrzArccvc-unsplas
 import Gym5 from '../../Resources/Image&Icon/john-fornander-FIu48iuo_4g-unsplash.jpg'
 import Gym6 from '../../Resources/Image&Icon/sven-mieke-Lx_GDv7VA9M-unsplash.jpg'
 
-const ClassItem = ({ title, image }) => {
+const ClassItem = ({ title, image, setClassName }) => {
     return <main className="position-relative">
         <img className="w-100 h-100" src={image} alt="Gym Pic" />
-        <div className="tag">
+        <div className="tag" onClick={() => setClassName(title)}>
             <p className="m-0 text-uppercase text-right">{title}</p>
         </div>
     </main>
 }
 
-const ClassOption = () => {
+const ClassOption = ({ setClassName }) => {
     return (
         <main className="class-option row w-100 m-0 my-5">
             <div className="col-md-1"></div>
             <div className="col-md-10">
                 <div className="class d-flex flex-wrap align-items-center justify-content-center">
-                    <ClassItem title={'Psycho training'} image={Gym1} />
-                    <ClassItem title={'Self Defense'} image={Gym2} />
-                    <ClassItem title={'Advance gym'} image={Gym3} />
-                    <ClassItem title={'Cardio training'} image={Gym4} />
-                    <ClassItem title={'Strength training'} image={Gym5} />
-                    <ClassItem title={'Psycho training'} image={Gym6} />
+                    <ClassItem title={'Psycho training'} image={Gym1} setClassName={setClassName} />
+                    <ClassItem title={'Self Defense'} image={Gym2} setClassName={setClassName} />
+                    <ClassItem title={'Advance gym'} image={Gym3} setClassName={setClassName} />
+                    <ClassItem title={'Cardio training'} image={Gym4} setClassName={setClassName} />
+                    <ClassItem title={'Strength training'} image={Gym5} setClassName={setClassName} />
+                    <ClassItem title={'Psycho training'} image={Gym6} setClassName={setClassName} />
                 </div>
             </div>
             <div className="col-md-1"></div>
