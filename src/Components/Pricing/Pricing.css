@@ -5,3 +5,19 @@
     font-size: 80px;
     color: white;
 }
+.pricing .plan{
+    width:340px;
+    min-width: 340px;
+    height: 530px;
+    margin: 7px 18px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.pricing .plan:hover{
+    transform: scale(1.05);
+}
+.pricing .bill{
+    font-size: 50px;
+}

@@ -7,7 +7,7 @@
     margin: 20px 0;
     line-height: 70px;
 }
-.join{
+.join, .purchase{
     color: black;
     background:#FCD842;
     font-size: 20px;
@@ -34,13 +34,13 @@
     background-position: center;
     background-size: cover;
 }
-.info-cards .Icon1{
+.Icon1{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/hipcravo-5UbIqV58CW8-unsplash.jpg');
 }
-.info-cards .Icon2{
+.Icon2{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
 }
-.info-cards .Icon3{
+.Icon3{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../../Resources/Image&Icon/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
 }
 .about-us .about-1{

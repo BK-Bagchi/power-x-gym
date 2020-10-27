@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Header from './Header'
+import Offers from './Offers'
+import Footer from '../Footer/Footer'
 import './Pricing.css'
 
 const Pricing = () => {
@@ -10,6 +12,8 @@ const Pricing = () => {
                 <Navbar />
                 <Header />
             </div>
+            <Offers />
+            <Footer />
         </section>
     );
 };
